@@ -1,7 +1,7 @@
 Flask==1.1.1
-gunicorn==19.9.0
+gunicorn==19.10.0
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 Werkzeug==0.15.5
 numpy>=1.9.2
@@ -12,3 +12,4 @@ pandas>=0.19
 nltk>=3.4.5
 python-docx>=0.8.11
 wordcloud>=1.8.0
+pillow>=9.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
