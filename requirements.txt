@@ -12,4 +12,6 @@ pandas>=0.19
 nltk>=3.4.5
 python-docx>=0.8.11
 wordcloud>=1.8.0
-pillow>=9.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
